@@ -1,5 +1,5 @@
 function y = IMVMS(Q, d)
-%this is an image-matrix vector multiplicator with shifts, i.e. it executes formula (7) in the paper
+% this is an image-matrix vector multiplicator with shifts, i.e. it executes formula (11) in the paper
 [M, N, L] = size(Q, 1:3);
 y = zeros(M, N, L);
 for k = 1:L

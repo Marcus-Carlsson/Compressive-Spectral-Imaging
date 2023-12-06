@@ -41,7 +41,7 @@ H1H1t = H1 * H1';
 disp('Computing (I+HH*)^{-1} ...')
 
 tic
-inv_rhoIHHstar = inv_Block_v1(H1H1t, rho, N, L, S, 1);
+inv_rhoIHHstar = blockDiagonal(H1H1t, rho, N, L, S);
 timeBlockDiagonalHHstar = toc;
 
 disp(['Elapsed time: ' num2str(timeBlockDiagonalHHstar)])
