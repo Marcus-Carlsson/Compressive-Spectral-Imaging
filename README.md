@@ -24,7 +24,7 @@ Feel free to explore, modify, and adapt the code to suit your specific needs. If
 
 If the provided code is useful for your research and you will use it in your research work, please cite this paper as
 
-```
+```bibtex
 @article{carlsson2024fast,
   title={Fast matrix inversion in compressive spectral imaging based on a tensorial representation},
   author={Carlsson, Marcus and Martinez, Emmanuel and Vargas, Edwin and Arguello, Henry},
